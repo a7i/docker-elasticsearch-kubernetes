@@ -20,13 +20,6 @@ path:
 bootstrap:
   memory_lock: ${MEMORY_LOCK}
 
-http:
-  enabled: ${HTTP_ENABLE}
-  compression: true
-  cors:
-    enabled: ${HTTP_CORS_ENABLE}
-    allow-origin: ${HTTP_CORS_ALLOW_ORIGIN}
-
 discovery:
   zen:
     ping.unicast.hosts: ${DISCOVERY_SERVICE}
